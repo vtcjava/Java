@@ -20,7 +20,7 @@ public class MathUtil {
     public static int pow(int a, int n) {
         int res = 1;
         for (int i = 0; i < n; i++) {
-            res *= a; // res = res * a;
+            res = res * a; // res = res * a;
         }
         return res;
     }
